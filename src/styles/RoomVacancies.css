@@ -1,0 +1,16 @@
+.vac {
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.vac__l {
+  width: 40%;
+  background-color: aquamarine;
+}
+.vac__r {
+  width: 60%;
+  background-color: powderblue;
+}

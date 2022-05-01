@@ -1,0 +1,116 @@
+.loginRoot {
+  /**height: 80vh;
+  width: 80vw;**/
+  background-image: url("../assets/home.jpg");
+  object-fit: fill;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+ /** margin: 4rem;
+  margin-left: 10rem;
+  background-color: antiquewhite;**/
+  background-repeat: no-repeat;
+  background-size: 100%;
+  flex-direction: row;
+  align-items: center;
+}
+
+.loginRoot__left {
+  height: 100%;
+  width: 50%;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15rem;
+}
+
+.loginRoot__left > h1 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 35px;
+}
+
+.loginRoot__left > p {
+  font-family: "Libre Baskerville", serif;
+}
+
+.loginRoot__right {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15rem;
+}
+
+.loginRoot__right__box {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 56vh;
+  width: 30vw;
+  background-color: powderblue;
+  align-items: center;
+}
+
+.login__user {
+  width: 30vw;
+  margin-left: 28%;
+  margin-top: 15%;
+}
+
+.login__pass {
+  width: 30vw;
+  margin-left: 28%;
+}
+
+.login__user > input {
+  margin: 1rem;
+  width: 40%;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+}
+.login__pass > input {
+  margin: 1rem;
+  width: 40%;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+}
+
+.login__user > label {
+  font-size: medium;
+  font-family: "Libre Baskerville", serif;
+}
+.login__pass > label {
+  font-size: medium;
+  font-family: "Libre Baskerville", serif;
+}
+
+.loginRoot__right__box > button {
+  margin: 1rem;
+  width: 25%;
+  height: 30px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+  background-color: powderblue;
+  font-family: "Libre Baskerville", serif;
+  font-size: medium;
+}
+a{
+  font-family: "Libre Baskerville", serif;
+  margin-top: 30px;
+  color:black;
+}
+.back{
+  margin-right:100px;
+}
+p{
+  width:80%;
+  margin-left: 45px;
+}

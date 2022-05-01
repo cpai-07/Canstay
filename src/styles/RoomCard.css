@@ -1,0 +1,20 @@
+.roomCard{
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+    transition: transform 100ms;
+}
+
+.roomCard:hover{
+    transform: scale(1.09);
+}
+
+.roomCard>img{
+    height: 100px;
+    object-fit: contain;
+    width:180px;
+}
+
+.roomCard>h4{
+    padding-top: 10px;
+}

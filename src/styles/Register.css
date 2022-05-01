@@ -1,0 +1,50 @@
+.registerRoot{
+    height:auto
+    
+    
+}
+.registerRoot__box {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    width: 50vw;
+    background-color: powderblue;
+    margin-top: 7%;
+    margin-left: 27%;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+input{
+    width: 53.7%;
+    border-top:none;
+    border-right:none;
+    border-left: none;
+    background-color: powderblue;
+}
+button{
+    
+    width: 20%;
+}
+
+.branch{
+    border-top:none;
+    border-right:none;
+    border-left: none;
+    background-color: powderblue;
+}
+
+.year{
+    border-top:none;
+    border-right:none;
+    border-left: none;
+    background-color: powderblue;
+    width: 53.7%;
+}
+
+.pass{
+    border-top:none;
+    border-right:none;
+    border-left: none;
+    background-color: powderblue;
+}

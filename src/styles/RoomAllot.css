@@ -1,0 +1,62 @@
+.roomAllot {
+  background-color: antiquewhite;
+  height: 100vh;
+}
+
+.roomAllot__header {
+  /* color: white; */
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.roomAllot__form {
+  line-height: 50px;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  box-shadow: 2px 2px 3px #777;
+  height: 75vh;
+  width: 40vw;
+  border-radius: 10px;
+  padding: 10px;
+  align-items: center;
+}
+
+.roomAllot__form > h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: "Libre Baskerville", serif;
+}
+
+.roomAllot__form > button {
+  height: 35px;
+  width: 70px;
+  border-radius: 5px;
+  float: right;
+  margin-right: 50px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+.roomAllot__form > label {
+  margin-left: 30px;
+  font-family: "Libre Baskerville", serif;
+}
+
+.roomAllot__prefer {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+}
+
+.roomAllot__radio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.roomAllot__radio > label {
+  font-size: medium;
+  font-weight: bold;
+}

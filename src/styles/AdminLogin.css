@@ -1,0 +1,113 @@
+.adminRoot {
+  background-image: url("../assets/home.jpg");
+  object-fit: fill;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  flex-direction: row;
+  align-items: center;
+}
+
+.adminRoot__left {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15rem;
+}
+.adminRoot__right {
+  height: 100%;
+  width: 50%;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15rem;
+}
+
+.adminRoot__right > h1 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 35px;
+}
+.adminRoot__right > h2 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 25px;
+}
+
+.adminRoot__right > p {
+  font-family: "Libre Baskerville", serif;
+}
+
+.adminRoot__right__box {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 56vh;
+  width: 30vw;
+  background-color: powderblue;
+  align-items: center;
+}
+.admin__user {
+  width: 30vw;
+  margin-left: 28%;
+  margin-top: 15%;
+}
+
+.admin__pass {
+  width: 30vw;
+  margin-left: 28%;
+}
+
+.admin__user > input {
+  margin: 1rem;
+  width: 40%;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+}
+.admin__pass > input {
+  margin: 1rem;
+  width: 40%;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+}
+
+.admin__user > label {
+  font-size: medium;
+  font-family: "Libre Baskerville", serif;
+}
+.admin__pass > label {
+  font-size: medium;
+  font-family: "Libre Baskerville", serif;
+}
+
+.adminRoot__right__box > button {
+  margin: 1rem;
+  width: 25%;
+  height: 30px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+  background-color: powderblue;
+  font-family: "Libre Baskerville", serif;
+  font-size: medium;
+}
+a{
+  font-family: "Libre Baskerville", serif;
+  margin-top: 30px;
+  color:black;
+}
+.back{
+  margin-right:100px;
+}
+p{
+  width:80%;
+  margin-left: 45px;
+}
