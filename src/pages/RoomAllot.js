@@ -39,7 +39,7 @@ function RoomAllot() {
               value={formData.isSingle}
               name="option1"
             ></input>
-            <label for="single">Single</label>
+            <label htmlFor="single">Single</label>
           </div>
           <div className="roomAllot__radio">
             <input
@@ -51,7 +51,7 @@ function RoomAllot() {
               value={!formData.isSingle}
               name="option1"
             ></input>
-            <label for="double">Double</label>
+            <label htmlFor="double">Double</label>
           </div>
         </div>
         <label htmlFor="">
@@ -68,7 +68,7 @@ function RoomAllot() {
               id="attached"
               name="option2"
             ></input>
-            <label for="attached">Attached</label>
+            <label htmlFor="attached">Attached</label>
           </div>
           <div className="roomAllot__radio">
             <input
@@ -80,7 +80,7 @@ function RoomAllot() {
               id="nonattached"
               name="option2"
             ></input>
-            <label for="nonattached">Non Attached</label>
+            <label  htmlFor="nonattached">Non Attached</label>
           </div>
         </div>
         <label htmlFor="">
@@ -95,7 +95,7 @@ function RoomAllot() {
               id="1"
               name="option3"
             ></input>
-            <label for="1">1st</label>
+            <label  htmlFor="1">1st</label>
           </div>
           <div className="roomAllot__radio">
             <input
@@ -105,7 +105,7 @@ function RoomAllot() {
               id="2"
               name="option3"
             ></input>
-            <label for="2">2nd</label>
+            <label  htmlFor="2">2nd</label>
           </div>
           <div className="roomAllot__radio">
             <input
@@ -115,7 +115,7 @@ function RoomAllot() {
               id="3"
               name="option3"
             ></input>
-            <label for="3">3rd</label>
+            <label  htmlFor="3">3rd</label>
           </div>
           <div className="roomAllot__radio">
             <input
@@ -125,7 +125,7 @@ function RoomAllot() {
               id="4"
               name="option3"
             ></input>
-            <label for="4">4th</label>
+            <label  htmlFor="4">4th</label>
           </div>
         </div>
         <button type="submit">Check Rooms</button>
